@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Customization Form | Dhani Marketing Services</title>
+    <!-- Preload background image for faster loading -->
+    <link rel="preload" href="image-optimized.jpg" as="image" type="image/jpeg">
+    <!-- Preconnect to fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #080c10;
+            --primary-light: #0f1419;
+            --accent: #c9a227;
+            --accent-light: #d4b44a;
+            --text: #ffffff;
+            --text-muted: rgba(255, 255, 255, 0.7);
+            --border: rgba(255, 255, 255, 0.1);
+            --card-bg: rgba(255, 255, 255, 0.03);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--primary);
+            color: var(--text);
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--primary) url('image-optimized.jpg') center/cover no-repeat;
+            opacity: 0.15;
+            z-index: -1;
+            will-change: transform;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-badge">
+                <span class="logo-icon">✦</span>
+            </div>
+
+            <h1 class="main-title">Website Customization Form</h1>
+            <p class="subtitle">Help us create your perfect website by providing the details below</p>
+        </header>
+ 
+        <form action="https://formsubmit.co/sidhantmehra@aeternuslongevitylab.com" method="POST" class="form" id="intakeForm">
+            <!-- FormSubmit Configuration -->
+            <input type="hidden" name="_subject" value="New Website Customization Form Submission">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <!-- Business Identity Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">01</span>
+                    <h2 class="section-title">Business Identity</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="businessName">Business Name</label>
+                        <input type="text" id="businessName" name="businessName" placeholder="e.g., Aeternus Longevity Lab">
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="tagline">Tagline / Slogan</label>
+                        <input type="text" id="tagline" name="tagline" placeholder="e.g., Train for a Longer, Stronger Life">
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="businessDescription">Business Description</label>
+                        <textarea id="businessDescription" name="businessDescription" rows="4" placeholder="Describe your business in a few sentences..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="industry">Industry / Niche</label>
+                        <input type="text" id="industry" name="industry" placeholder="e.g., Fitness, Wellness, Health">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="targetAudience">Target Audience</label>
+                        <input type="text" id="targetAudience" name="targetAudience" placeholder="e.g., Adults 30-60, Health-conscious individuals">
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Us Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">02</span>
+                    <h2 class="section-title">About Us Content</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="aboutStory">Your Story / Background</label>
+                        <textarea id="aboutStory" name="aboutStory" rows="4" placeholder="Tell us about how your business started, your journey, and what makes you unique..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="mission">Mission Statement</label>
+                        <textarea id="mission" name="mission" rows="3" placeholder="What is your mission? What do you aim to achieve?"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="vision">Vision Statement</label>
+                        <textarea id="vision" name="vision" rows="3" placeholder="What is your long-term vision for the business?"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="values">Core Values</label>
+                        <textarea id="values" name="values" rows="3" placeholder="List your core values (e.g., Excellence, Innovation, Customer-First, Integrity)"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="milestones">Key Milestones / Achievements</label>
+                        <textarea id="milestones" name="milestones" rows="3" placeholder="List important milestones (e.g., Year founded, Awards, Number of clients served)"></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">03</span>
+                    <h2 class="section-title">Services / Programs</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="service1">Service 1</label>
+                        <input type="text" id="service1Name" name="service1Name" placeholder="Service Name" class="mb-2">
+                        <textarea id="service1Desc" name="service1Desc" rows="2" placeholder="Brief description of this service..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="service2">Service 2</label>
+                        <input type="text" id="service2Name" name="service2Name" placeholder="Service Name" class="mb-2">
+                        <textarea id="service2Desc" name="service2Desc" rows="2" placeholder="Brief description of this service..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="service3">Service 3</label>
+                        <input type="text" id="service3Name" name="service3Name" placeholder="Service Name" class="mb-2">
+                        <textarea id="service3Desc" name="service3Desc" rows="2" placeholder="Brief description of this service..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="service4">Service 4</label>
+                        <input type="text" id="service4Name" name="service4Name" placeholder="Service Name" class="mb-2">
+                        <textarea id="service4Desc" name="service4Desc" rows="2" placeholder="Brief description of this service..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="service5">Service 5</label>
+                        <input type="text" id="service5Name" name="service5Name" placeholder="Service Name" class="mb-2">
+                        <textarea id="service5Desc" name="service5Desc" rows="2" placeholder="Brief description of this service..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="service6">Service 6</label>
+                        <input type="text" id="service6Name" name="service6Name" placeholder="Service Name" class="mb-2">
+                        <textarea id="service6Desc" name="service6Desc" rows="2" placeholder="Brief description of this service..."></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="additionalServices">Additional Services</label>
+                        <textarea id="additionalServices" name="additionalServices" rows="3" placeholder="List any additional services not mentioned above..."></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">04</span>
+                    <h2 class="section-title">Team Members</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width team-member-card">
+                        <h3 class="team-label">Team Member 1</h3>
+                        <div class="team-grid">
+                            <input type="text" name="team1Name" placeholder="Full Name">
+                            <input type="text" name="team1Role" placeholder="Role / Title">
+                        </div>
+                        <textarea name="team1Bio" rows="2" placeholder="Brief bio..."></textarea>
+                        <input type="text" name="team1Specialties" placeholder="Specialties (comma separated)">
+                    </div>
+                    
+                    <div class="form-group full-width team-member-card">
+                        <h3 class="team-label">Team Member 2</h3>
+                        <div class="team-grid">
+                            <input type="text" name="team2Name" placeholder="Full Name">
+                            <input type="text" name="team2Role" placeholder="Role / Title">
+                        </div>
+                        <textarea name="team2Bio" rows="2" placeholder="Brief bio..."></textarea>
+                        <input type="text" name="team2Specialties" placeholder="Specialties (comma separated)">
+                    </div>
+                    
+                    <div class="form-group full-width team-member-card">
+                        <h3 class="team-label">Team Member 3</h3>
+                        <div class="team-grid">
+                            <input type="text" name="team3Name" placeholder="Full Name">
+                            <input type="text" name="team3Role" placeholder="Role / Title">
+                        </div>
+                        <textarea name="team3Bio" rows="2" placeholder="Brief bio..."></textarea>
+                        <input type="text" name="team3Specialties" placeholder="Specialties (comma separated)">
+                    </div>
+                    
+                    <div class="form-group full-width team-member-card">
+                        <h3 class="team-label">Team Member 4</h3>
+                        <div class="team-grid">
+                            <input type="text" name="team4Name" placeholder="Full Name">
+                            <input type="text" name="team4Role" placeholder="Role / Title">
+                        </div>
+                        <textarea name="team4Bio" rows="2" placeholder="Brief bio..."></textarea>
+                        <input type="text" name="team4Specialties" placeholder="Specialties (comma separated)">
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="additionalTeam">Additional Team Members</label>
+                        <textarea id="additionalTeam" name="additionalTeam" rows="3" placeholder="List any additional team members with their names, roles, and brief bios..."></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Information Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">05</span>
+                    <h2 class="section-title">Contact Information</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="info@yourbusiness.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="address">Business Address</label>
+                        <input type="text" id="address" name="address" placeholder="123 Main Street, City, State, ZIP">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="hoursWeekday">Weekday Hours</label>
+                        <input type="text" id="hoursWeekday" name="hoursWeekday" placeholder="e.g., Mon-Fri: 6:00 AM - 9:00 PM">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="hoursWeekend">Weekend Hours</label>
+                        <input type="text" id="hoursWeekend" name="hoursWeekend" placeholder="e.g., Sat-Sun: 8:00 AM - 6:00 PM">
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="googleMapsLink">Google Maps Link</label>
+                        <input type="url" id="googleMapsLink" name="googleMapsLink" placeholder="https://maps.google.com/...">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Social Media Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">06</span>
+                    <h2 class="section-title">Social Media Links</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="instagram">Instagram</label>
+                        <input type="url" id="instagram" name="instagram" placeholder="https://instagram.com/yourbusiness">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="facebook">Facebook</label>
+                        <input type="url" id="facebook" name="facebook" placeholder="https://facebook.com/yourbusiness">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="twitter">Twitter / X</label>
+                        <input type="url" id="twitter" name="twitter" placeholder="https://twitter.com/yourbusiness">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="youtube">YouTube</label>
+                        <input type="url" id="youtube" name="youtube" placeholder="https://youtube.com/@yourbusiness">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="linkedin">LinkedIn</label>
+                        <input type="url" id="linkedin" name="linkedin" placeholder="https://linkedin.com/company/yourbusiness">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="tiktok">TikTok</label>
+                        <input type="url" id="tiktok" name="tiktok" placeholder="https://tiktok.com/@yourbusiness">
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="otherSocials">Other Social Platforms</label>
+                        <textarea id="otherSocials" name="otherSocials" rows="2" placeholder="List any other social media profiles with their URLs..."></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Visual Preferences Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">07</span>
+                    <h2 class="section-title">Visual Preferences</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="colorPreferences">Color Preferences</label>
+                        <textarea id="colorPreferences" name="colorPreferences" rows="2" placeholder="Describe your preferred colors (e.g., Dark theme with gold accents, Modern blue and white)"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="photoStyle">Photo Style Preferences</label>
+                        <textarea id="photoStyle" name="photoStyle" rows="3" placeholder="Describe the type of photos you want (e.g., Professional studio shots, Candid action photos, Modern minimalist, Warm and inviting)"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="brandMood">Brand Mood / Feeling</label>
+                        <textarea id="brandMood" name="brandMood" rows="2" placeholder="How should your website make visitors feel? (e.g., Premium and exclusive, Friendly and approachable, Professional and trustworthy)"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="inspirationSites">Inspiration Websites</label>
+                        <textarea id="inspirationSites" name="inspirationSites" rows="2" placeholder="List any websites you like the look of (URLs)"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="logoInfo">Logo Information</label>
+                        <textarea id="logoInfo" name="logoInfo" rows="2" placeholder="Do you have a logo? Describe it or let us know if you need one created"></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">08</span>
+                    <h2 class="section-title">Testimonials</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width testimonial-card">
+                        <h3 class="team-label">Testimonial 1</h3>
+                        <input type="text" name="testimonial1Name" placeholder="Client Name">
+                        <input type="text" name="testimonial1Title" placeholder="Client Title / Role">
+                        <textarea name="testimonial1Quote" rows="3" placeholder="What did they say about your business?"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width testimonial-card">
+                        <h3 class="team-label">Testimonial 2</h3>
+                        <input type="text" name="testimonial2Name" placeholder="Client Name">
+                        <input type="text" name="testimonial2Title" placeholder="Client Title / Role">
+                        <textarea name="testimonial2Quote" rows="3" placeholder="What did they say about your business?"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width testimonial-card">
+                        <h3 class="team-label">Testimonial 3</h3>
+                        <input type="text" name="testimonial3Name" placeholder="Client Name">
+                        <input type="text" name="testimonial3Title" placeholder="Client Title / Role">
+                        <textarea name="testimonial3Quote" rows="3" placeholder="What did they say about your business?"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="additionalTestimonials">Additional Testimonials</label>
+                        <textarea id="additionalTestimonials" name="additionalTestimonials" rows="3" placeholder="Add any additional testimonials here..."></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Statistics Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">09</span>
+                    <h2 class="section-title">Key Statistics</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="stat1">Statistic 1</label>
+                        <input type="text" id="stat1Value" name="stat1Value" placeholder="Value (e.g., 500+)" class="mb-2">
+                        <input type="text" id="stat1Label" name="stat1Label" placeholder="Label (e.g., Happy Clients)">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="stat2">Statistic 2</label>
+                        <input type="text" id="stat2Value" name="stat2Value" placeholder="Value (e.g., 15+)" class="mb-2">
+                        <input type="text" id="stat2Label" name="stat2Label" placeholder="Label (e.g., Years Experience)">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="stat3">Statistic 3</label>
+                        <input type="text" id="stat3Value" name="stat3Value" placeholder="Value (e.g., 98%)" class="mb-2">
+                        <input type="text" id="stat3Label" name="stat3Label" placeholder="Label (e.g., Satisfaction Rate)">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="stat4">Statistic 4</label>
+                        <input type="text" id="stat4Value" name="stat4Value" placeholder="Value (e.g., 24/7)" class="mb-2">
+                        <input type="text" id="stat4Label" name="stat4Label" placeholder="Label (e.g., Support Available)">
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">10</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width faq-card">
+                        <h3 class="team-label">FAQ 1</h3>
+                        <input type="text" name="faq1Question" placeholder="Question">
+                        <textarea name="faq1Answer" rows="2" placeholder="Answer"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width faq-card">
+                        <h3 class="team-label">FAQ 2</h3>
+                        <input type="text" name="faq2Question" placeholder="Question">
+                        <textarea name="faq2Answer" rows="2" placeholder="Answer"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width faq-card">
+                        <h3 class="team-label">FAQ 3</h3>
+                        <input type="text" name="faq3Question" placeholder="Question">
+                        <textarea name="faq3Answer" rows="2" placeholder="Answer"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width faq-card">
+                        <h3 class="team-label">FAQ 4</h3>
+                        <input type="text" name="faq4Question" placeholder="Question">
+                        <textarea name="faq4Answer" rows="2" placeholder="Answer"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="additionalFaqs">Additional FAQs</label>
+                        <textarea id="additionalFaqs" name="additionalFaqs" rows="3" placeholder="Add any additional questions and answers..."></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEO Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">11</span>
+                    <h2 class="section-title">SEO & Domain</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="domainName">Preferred Domain Name</label>
+                        <input type="text" id="domainName" name="domainName" placeholder="e.g., www.yourbusiness.com">
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="seoKeywords">SEO Keywords</label>
+                        <textarea id="seoKeywords" name="seoKeywords" rows="2" placeholder="List keywords you want to rank for (e.g., fitness training, personal trainer, wellness center)"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="metaDescription">Meta Description</label>
+                        <textarea id="metaDescription" name="metaDescription" rows="2" placeholder="A brief description of your business for search engines (150-160 characters)"></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Additional Ideas Section -->
+            <section class="form-section highlight-section">
+                <div class="section-header">
+                    <span class="section-number">12</span>
+                    <h2 class="section-title">Additional Ideas & Notes</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group full-width">
+                        <label for="additionalFeatures">Additional Features You'd Like</label>
+                        <textarea id="additionalFeatures" name="additionalFeatures" rows="3" placeholder="Any specific features you want on your website (e.g., booking system, newsletter signup, blog, gallery)"></textarea>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="anythingElse">Anything Else We Should Know</label>
+                        <textarea id="anythingElse" name="anythingElse" rows="6" placeholder="Share any other ideas, requirements, or information that would help us create the perfect website for you. This is your space to tell us everything!"></textarea>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Person Section -->
+            <section class="form-section">
+                <div class="section-header">
+                    <span class="section-number">13</span>
+                    <h2 class="section-title">Your Contact Details</h2>
+                </div>
+                
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="contactName">Your Name</label>
+                        <input type="text" id="contactName" name="name" placeholder="Your full name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactEmail">Your Email</label>
+                        <input type="email" id="contactEmail" name="email" placeholder="your@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactPhone">Your Phone</label>
+                        <input type="tel" id="contactPhone" name="contactPhone" placeholder="+1 (555) 123-4567">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="preferredContact">Preferred Contact Method</label>
+                        <select id="preferredContact" name="preferredContact">
+                            <option value="">Select preference</option>
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                            <option value="whatsapp">WhatsApp</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <div class="submit-section">
+                <button type="submit" class="submit-btn">
+                    <span>Submit Your Information</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </button>
+                <p class="submit-note">We'll review your information and get back to you soon</p>
+            </div>
+        </form>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-message" id="successMessage">
+        <div class="success-content">
+            <div class="success-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h2>Thank You!</h2>
+            <p>Your information has been submitted successfully.</p>
+            <p class="success-subtext">We will review your details and contact you soon to discuss your website project.</p>
+            <button onclick="location.reload()" class="success-btn">Submit Another Response</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-bottom">
+            <div class="footer-watermark">DHANI MARKETING SERVICES</div>
+        </div>
+    </footer>
+
+    <style>
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .logo-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            border-radius: 16px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 40px rgba(201, 162, 39, 0.3);
+        }
+        
+        .logo-icon {
+            font-size: 28px;
+            color: var(--primary);
+        }
+        
+        .logo-icon.large {
+            font-size: 36px;
+            color: var(--accent);
+        }
+        
+        .main-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--text), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+        
+        .form-section {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 32px;
+            transition: all 0.3s ease;
+        }
+        
+        .form-section:hover {
+            border-color: rgba(201, 162, 39, 0.3);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        
+        .highlight-section {
+            background: linear-gradient(135deg, rgba(201, 162, 39, 0.05), rgba(201, 162, 39, 0.02));
+            border-color: rgba(201, 162, 39, 0.2);
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+        
+        .section-number {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+            border-radius: 12px;
+            flex-shrink: 0;
+        }
+        
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+        
+        .form-group label {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text);
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 14px 16px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: rgba(201, 162, 39, 0.05);
+            box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.1);
+        }
+        
+        .form-group select {
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.5)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 18px;
+            padding-right: 44px;
+        }
+        
+        .form-group select option {
+            background: var(--primary);
+            color: var(--text);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .mb-2 {
+            margin-bottom: 8px;
+        }
+
+        .team-member-card,
+        .testimonial-card,
+        .faq-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .team-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 4px;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        
+        .submit-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .submit-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            padding: 18px 48px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            color: var(--primary);
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 40px rgba(201, 162, 39, 0.3);
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 50px rgba(201, 162, 39, 0.4);
+        }
+        
+        .submit-btn svg {
+            transition: transform 0.3s ease;
+        }
+        
+        .submit-btn:hover svg {
+            transform: translateX(4px);
+        }
+        
+        .submit-note {
+            margin-top: 16px;
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+        
+        /* Success Message */
+        .success-message {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(8, 12, 16, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .success-message.show {
+            display: flex;
+        }
+        
+        .success-content {
+            text-align: center;
+            max-width: 500px;
+            padding: 60px 40px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            animation: scaleIn 0.5s ease;
+        }
+        
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        .success-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, rgba(201, 162, 39, 0.2), rgba(201, 162, 39, 0.1));
+            border-radius: 50%;
+            margin-bottom: 24px;
+        }
+        
+        .success-icon svg {
+            color: var(--accent);
+        }
+        
+        .success-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--accent);
+            margin-bottom: 16px;
+        }
+        
+        .success-content p {
+            color: var(--text);
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        
+        .success-subtext {
+            color: var(--text-muted) !important;
+            font-size: 0.95rem !important;
+            margin-bottom: 32px !important;
+        }
+        
+        .success-btn {
+            padding: 14px 32px;
+            background: transparent;
+            border: 2px solid var(--accent);
+            color: var(--accent);
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .success-btn:hover {
+            background: var(--accent);
+            color: var(--primary);
+        }
+
+        /* Footer */
+        .footer {
+            background: linear-gradient(180deg, var(--primary-light), var(--primary));
+            border-top: 1px solid var(--border);
+            margin-top: 80px;
+            padding: 60px 20px;
+        }
+        
+        .footer-bottom {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .footer-watermark {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.5rem, 6vw, 3.5rem);
+            font-weight: 700;
+            background: linear-gradient(135deg, rgba(201, 162, 39, 0.2), rgba(201, 162, 39, 0.08));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: clamp(4px, 2vw, 12px);
+            line-height: 1.2;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 24px 16px;
+            }
+            
+            .header {
+                margin-bottom: 40px;
+            }
+            
+            .logo-badge {
+                width: 50px;
+                height: 50px;
+                margin-bottom: 20px;
+            }
+            
+            .logo-icon {
+                font-size: 24px;
+            }
+            
+            .main-title {
+                font-size: 1.75rem;
+                margin-bottom: 12px;
+            }
+            
+            .subtitle {
+                font-size: 1rem;
+            }
+            
+            .form-section {
+                padding: 24px 16px;
+                border-radius: 16px;
+            }
+            
+            .section-header {
+                gap: 12px;
+                margin-bottom: 20px;
+            }
+            
+            .section-number {
+                width: 36px;
+                height: 36px;
+                font-size: 13px;
+            }
+            
+            .section-title {
+                font-size: 1.25rem;
+            }
+            
+            .form-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .form-group input,
+            .form-group textarea,
+            .form-group select {
+                padding: 12px 14px;
+                font-size: 16px; /* Prevents zoom on iOS */
+            }
+            
+            .submit-section {
+                padding: 30px 0;
+            }
+            
+            .submit-btn {
+                width: 100%;
+                justify-content: center;
+                padding: 16px 32px;
+                font-size: 15px;
+            }
+            
+            .success-content {
+                padding: 40px 24px;
+                border-radius: 20px;
+            }
+            
+            .success-icon {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 20px;
+            }
+            
+            .success-icon svg {
+                width: 48px;
+                height: 48px;
+            }
+            
+            .success-content h2 {
+                font-size: 2rem;
+            }
+            
+            .success-content p {
+                font-size: 1rem;
+            }
+            
+            .footer {
+                margin-top: 60px;
+                padding: 40px 20px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 20px 12px;
+            }
+            
+            .form-section {
+                padding: 20px 14px;
+            }
+            
+            .section-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 8px;
+            }
+            
+            .team-member-card,
+            .testimonial-card,
+            .faq-card {
+                padding: 16px;
+            }
+        }
+    </style>
+
+
+</body>
+</html>

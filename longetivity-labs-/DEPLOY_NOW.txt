@@ -1,0 +1,125 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                   AETERNUS LONGEVITY LAB WEBSITE                          ║
+║                     NETLIFY DEPLOYMENT GUIDE                              ║
+║                          (Manual Upload)                                  ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+✅ BUILD COMPLETE - READY TO DEPLOY!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 YOUR FILES ARE READY IN THE "out" FOLDER
+
+Location: C:\Users\markm\Downloads\aeternus-longevity-lab-website\out
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 DEPLOY TO NETLIFY (3 EASY STEPS)
+
+STEP 1: Open Netlify Drop
+        👉 https://app.netlify.com/drop
+
+STEP 2: Drag and Drop
+        - Open File Explorer
+        - Navigate to: aeternus-longevity-lab-website\out
+        - Drag the ENTIRE "out" folder to Netlify Drop page
+
+STEP 3: Wait for Upload
+        - Upload takes 30-60 seconds
+        - You'll get a URL like: https://random-name.netlify.app
+        - ✅ YOUR SITE IS LIVE!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 AFTER DEPLOYMENT
+
+Change Site Name:
+  1. Go to Site Settings → Site Details
+  2. Click "Change site name"
+  3. Enter: aeternus-longevity-lab (or your choice)
+  4. New URL: https://aeternus-longevity-lab.netlify.app
+
+Enable HTTPS:
+  ✅ Automatically enabled by Netlify (done!)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ WEBSITE FEATURES
+
+✅ Fully Responsive (Mobile, Tablet, Desktop)
+✅ Smooth Animations & Transitions
+✅ Enhanced Gold & Navy Color Scheme
+✅ Aeternus Brand Watermark in Footer
+✅ SEO Optimized (Sitemap, Meta Tags)
+✅ All Pages Working (Home, About, Programs, Trainers, Events, Contact)
+✅ Loading & Error Pages Included
+✅ PWA Ready (manifest.json)
+✅ Copyright 2025
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📱 TEST YOUR SITE AFTER DEPLOYMENT
+
+1. Open your Netlify URL
+2. Check all pages load correctly
+3. Test on mobile device
+4. Verify images are loading
+5. Test navigation links
+6. Check contact form displays properly
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 UPDATING YOUR SITE
+
+When you need to make changes:
+
+1. Edit your files
+2. Run: npm run build
+3. Upload new "out" folder to Netlify
+4. Old version is automatically replaced
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ TROUBLESHOOTING
+
+Problem: "out" folder not found
+Solution: Run "npm run build" first
+
+Problem: Upload fails
+Solution: Make sure you're dragging the "out" folder, not individual files
+
+Problem: Site shows errors
+Solution: Check MANUAL_DEPLOY.md for detailed troubleshooting
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTATION FILES
+
+- MANUAL_DEPLOY.md  → Complete deployment guide
+- README.md         → Project documentation
+- DEPLOYMENT.md     → Git-based deployment (alternative)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 QUICK TIPS
+
+✓ Save your Netlify URL for future reference
+✓ Bookmark your Netlify dashboard
+✓ Keep a backup of the "out" folder
+✓ Custom domain can be added later (optional)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 YOU'RE ALL SET!
+
+Your Aeternus Longevity Lab website is ready to go live.
+Just drag & drop the "out" folder to Netlify!
+
+Need help? See MANUAL_DEPLOY.md for detailed instructions.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Built with ♥ for longevity | © 2025 Aeternus Longevity Lab
+Next.js 16 + React 19 + Tailwind CSS | Deployed on Netlify
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

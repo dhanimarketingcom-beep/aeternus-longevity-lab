@@ -1,0 +1,33 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://aeternuslongevitylab.com
+
+# Sitemaps
+Sitemap: https://aeternuslongevitylab.com/sitemap.xml
+
+# Disallow specific paths (if needed in future)
+# Disallow: /api/
+# Disallow: /admin/
+
+# Crawl-delay for specific bots (if needed)
+# User-agent: Googlebot
+# Crawl-delay: 0
+
+# Allow all bots to crawl all pages
+User-agent: *
+Disallow:
+
+# Allow indexing of images
+User-agent: Googlebot-Image
+Allow: /
+
+# Allow indexing of videos (if any)
+User-agent: Googlebot-Video
+Allow: /
+
+# Block specific bots (optional, uncomment if needed)
+# User-agent: BadBot
+# Disallow: /

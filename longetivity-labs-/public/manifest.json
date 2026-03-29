@@ -1,0 +1,83 @@
+{
+  "name": "Aeternus Longevity Lab",
+  "short_name": "Aeternus Lab",
+  "description": "Science-based training for longevity, functional strength, mobility, and sustainable health habits",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f7",
+  "theme_color": "#c9a227",
+  "orientation": "portrait-primary",
+  "categories": ["health", "fitness", "lifestyle"],
+  "lang": "en-US",
+  "dir": "ltr",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-light-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-dark-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/modern-premium-fitness-gym-with-weights-and-people.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Trial",
+      "short_name": "Book",
+      "description": "Book a free trial session",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/icon-light-32x32.png",
+          "sizes": "32x32"
+        }
+      ]
+    },
+    {
+      "name": "Programs",
+      "short_name": "Programs",
+      "description": "View training programs",
+      "url": "/programs",
+      "icons": [
+        {
+          "src": "/icon-light-32x32.png",
+          "sizes": "32x32"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/contact",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
